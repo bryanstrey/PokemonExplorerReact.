@@ -112,7 +112,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Pokédex API + Filtros</Text>
+      <Text style={styles.title}>Pokédex API</Text>
 
       <FlatList
         data={filteredPokemons}
